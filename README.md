@@ -26,11 +26,11 @@ Follow these steps to play the game:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/python-ping-pong.git
+git clone https://github.com/sudinkatuwal7/ping-pong.git
 ```
 2. **Navigate to the project folder**
 ```
-cd python-ping-pong
+cd ping-pong
 ```
 3. **Run the game**
 ```
@@ -40,9 +40,9 @@ python main.py
 
 **Left Player:**
 
-W → Move Up
+w → Move Up
 
-S → Move Down
+s → Move Down
 
 **Right Player:**
 
@@ -51,6 +51,16 @@ Up Arrow → Move Up
 Down Arrow → Move Down
 
 ---
+## 📂 File Structure
+```
+ping-pong/
+│
+├── main.py
+├── paddle.py
+├── ball.py
+├── scoreboard.py
+└── README.md
+```
 ## 🧩 Code Structure
 
 - **main.py**
