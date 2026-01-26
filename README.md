@@ -8,10 +8,11 @@ Play a fun, interactive game while exploring clean, modular Python code! 🎮�
 ## ✨ Features
 
 - **Two-player gameplay** on the same keyboard
-- **Ball mechanics**
+- **Dynamic ball mechanics**
   - Bounces off paddles
   - Bounces off walls
-  - Resets when a player misses
+  - **Increases speed after hitting a paddle ⚡**
+  - Resets to normal speed when a player misses
 - **Real-time scoreboard**
   - Tracks left and right player scores
 - **Clean OOP structure**
@@ -53,13 +54,13 @@ Down Arrow → Move Down
 ---
 ## 📂 File Structure
 ```
-ping-pong/
+ping-pong/ 🏓
 │
-├── main.py
-├── paddle.py
-├── ball.py
-├── scoreboard.py
-└── README.md
+├── main.py          # Main game loop and screen setup
+├── paddle.py        # Paddle class and movement logic
+├── ball.py          # Ball movement, collision, and speed control
+├── scoreboard.py    # Score tracking and display
+└── README.md        # Project documentation
 ```
 ## 🧩 Code Structure
 
@@ -95,6 +96,7 @@ ping-pong/
 - Add sound effects 🔊
 - Single-player mode with AI paddle 🤖
 - Increase ball speed over time ⚡
+- Winning score & game-over screen 🏆
 - Add start menu, pause, and game-over screens 🛑
 
 ---
@@ -109,5 +111,6 @@ ping-pong/
 
 ## 📸 Screenshots
 
-*(You can add images here if you want to showcase the game)*
+<img width="1499" height="1245" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/3d7fcfa7-4578-49ea-b1fb-354af14d926e" />
+
 
