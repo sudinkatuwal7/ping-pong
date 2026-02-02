@@ -1,4 +1,4 @@
-# 🏓 Python Ping Pong Game
+# 🏓 Python's Ping Pong Game
 
 A classic **Ping Pong game** built in **Python** using **Turtle graphics** and **Object-Oriented Programming (OOP)** principles.  
 Play a fun, interactive game while exploring clean, modular Python code! 🎮🐍
